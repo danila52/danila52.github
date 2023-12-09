@@ -1,0 +1,65 @@
+.bibika{
+    position: absolute;
+    top: 400px;
+    left: 0px;
+    animation: caranimation linear infinite 4s;
+}
+.coleso1{
+    background-color: cyan;
+    border-radius: 80%;
+    height: 100px;
+    width: 100px; 
+    position: absolute;
+    top: 100px;
+    left: 400px;
+}
+.coleso2{
+    background-color: cyan;
+    border-radius: 80%;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 100px;
+    left: 20px;
+}
+.korpus{
+    border-radius: 15% 15% 12% 12%;
+    background-color: darkgreen;
+    width: 500px;
+    height: 150px;
+}
+.okno1{
+    background-color: darkorchid;
+    height: 50px;
+    width: 60px;
+    border: 30%;
+    position: absolute;
+    left: 350px;
+    top: 20px;
+}
+.okno2{
+    background-color: darkorchid;
+    height: 50px;
+    width: 60px;
+    border: 30%;
+    position: absolute;
+    left: 150px;
+    top: 20px;
+}
+.okno3{
+    background-color: darkorchid;
+    height: 50px;
+    width: 60px;
+    border: 30%;
+    position: absolute;
+    left: 200px;
+    top: 20px;
+}
+@keyframes caranimation {
+    0%{
+left: 1px;
+    }
+    100%{
+left: 1000px;
+    }
+}
